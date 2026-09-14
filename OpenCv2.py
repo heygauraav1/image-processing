@@ -7,7 +7,7 @@
 
 import cv2
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 cv2.imshow("Original Image", image)
 
@@ -20,7 +20,7 @@ cv2.destroyAllWindows()
 #    using cv2.imread().
 # ============================================================
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 print("Image read successfully")
 
@@ -33,7 +33,7 @@ print("Image read successfully")
 # For VS Code, cv2.imshow() is used.
 # ============================================================
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 cv2.imshow("Display Image", image)
 
@@ -45,7 +45,7 @@ cv2.destroyAllWindows()
 # 4. Write a program to save an image using cv2.imwrite().
 # ============================================================
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 cv2.imwrite("saved_image.jpg", image)
 
@@ -57,7 +57,7 @@ print("Image saved successfully")
 #    into a grayscale image.
 # ============================================================
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -72,7 +72,7 @@ cv2.destroyAllWindows()
 #    using cv2.imwrite().
 # ============================================================
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
@@ -88,7 +88,7 @@ print("Grayscale image saved successfully")
 
 import numpy as np
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 array = np.array(image)
 
@@ -100,7 +100,7 @@ print(array)
 # 8. Print the pixel values of an image using NumPy.
 # ============================================================
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 array = np.array(image)
 
@@ -115,7 +115,7 @@ print(array[0, 0])
 
 import imutils
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 rotated = imutils.rotate(image, 90)
 
@@ -130,7 +130,7 @@ cv2.destroyAllWindows()
 #     by 180 degrees using imutils.
 # ============================================================
 
-image = cv2.imread("spaceship.webp")
+image = cv2.imread("/Users/gauravpaul/Desktop/Image/bear.jpeg")
 
 rotated = imutils.rotate(image, 180)
 
